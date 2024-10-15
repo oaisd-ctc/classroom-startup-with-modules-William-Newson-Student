@@ -4,10 +4,11 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Console.Clear();
         FindSeat();
         SignIn();
         DailyLogic();
-        BoxBreathing(4, 5);
+        BoxBreathing(5, 5);
         DailyHypothetical();
     }
     public static void FindSeat()
